@@ -1,3 +1,5 @@
+%This script produces tables for the neutral point location of the X-56 for different sweep angles. 
+
 Lambda = [22,25,30,32,34,35,36,38,40];
 [n,xacwf] = ac(112,8,1,Lambda);
 [n2,xact] = ac(30,9,(1/3),23.5);
